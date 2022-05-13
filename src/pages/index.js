@@ -74,7 +74,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/loopcake-v3.png"
+        src="https://fastinvoice.ca/wp-content/uploads/loopcake-v3.png"
         loading="eager"
         width={64}
         quality={95}
