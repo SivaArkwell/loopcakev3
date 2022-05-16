@@ -78,8 +78,8 @@ const IndexPage = () => (
         loading="eager"
         width={500}
         quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
+        formats={["png"]}
+        alt="LoopCake logo"
         style={{ marginBottom: `var(--space-3)` }}
       />
     </div>
