@@ -83,18 +83,17 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
     </div>
-    {/*<p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
-    </div>
+    <p className={styles.intro}>
+      <b>Example pages:</b>{" "}
+      {samplePageLinks.map((link, i) => (
+        <React.Fragment key={link.url}>
+          <Link to={link.url}>{link.text}</Link>
+          {i !== samplePageLinks.length - 1 && <> · </>}
+        </React.Fragment>
+      ))}
+      <br />
+      Edit <code>src/pages/index.js</code> to update this page.
+    </p>
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
@@ -113,7 +112,7 @@ const IndexPage = () => (
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
-    ))}*/}
+    ))}
   </Layout>
 )
 
